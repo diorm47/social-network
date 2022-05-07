@@ -1,0 +1,83 @@
+.line {
+  width: 100%;
+  height: 0.5px;
+  background: #948e8e;
+  position: absolute;
+  left: 0;
+}
+.MyPostsContent {
+  width: 100%;
+  height: 354px;
+}
+.input_area {
+  width: 100%;
+  height: 50px;
+  background-color: #0b5c7c;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.fieldarea {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fieldarea div div input {
+  width: 840px;
+  height: 47px;
+  border: 1px solid #0b5c7c;
+  text-indent: 10px;
+  font-size: 18px;
+  background: #3db5e4;
+  color: #ffffff;
+}
+
+.fieldarea button {
+  position: absolute;
+  right: 0;
+}
+
+.area {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  text-indent: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.button {
+  width: 65px;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.postsBlock {
+  padding: 10px;
+}
+
+.posts {
+  width: 100%;
+  height: 334px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.posts::-webkit-scrollbar {
+  background-color: #323232;
+  width: 6px;
+}

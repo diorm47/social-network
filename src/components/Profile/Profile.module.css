@@ -1,0 +1,5 @@
+.content {
+  height: 400px;
+  grid-area: c;
+  background-color: indigo;
+}

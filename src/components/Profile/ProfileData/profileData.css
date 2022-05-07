@@ -1,0 +1,57 @@
+.info_wrapper {
+  margin-left: 30px;
+  width: 100%;
+  height: 260px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.info_wrapper::-webkit-scrollbar {
+  background: #54bfe9;
+  width: 3px;
+}
+
+.save_button {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.save_button button {
+  width: 50px;
+  height: 22px;
+  background: #2394c0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.save_button button:hover {
+  background: #54bfe9;
+}
+
+.info_wrapper {
+  display: flex;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0 5px 5px;
+}
+
+.contacts {
+  margin-left: 160px;
+}
+
+.contact {
+  margin-bottom: 10px;
+}
+
+.infos div {
+  margin-bottom: 10px;
+}
+
+.infos div b {
+  padding-bottom: 5px;
+}

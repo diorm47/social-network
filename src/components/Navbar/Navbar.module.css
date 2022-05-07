@@ -1,0 +1,23 @@
+.nav {
+  width: 184px;
+  height: 680px;
+  grid-area: n;
+  display: flex;
+  background-color: #05374b;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  color: #ffffff;
+  font-size: 19px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.item a {
+  color: white;
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+}

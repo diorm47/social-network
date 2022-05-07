@@ -1,0 +1,49 @@
+.header {
+  grid-area: h;
+  background-color: #05374b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.login {
+  color: #fff;
+  text-decoration: none;
+  background: #1a70a1;
+  padding: 2px 8px 5px;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+
+.login:hover {
+  background: #3294cc;
+}
+
+.logout {
+  color: #fff;
+  text-decoration: none;
+  background: #ff0000;
+  padding: 5px 8px 5px;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+
+.logout:hover {
+  background: #ff0000b0;
+}
+.loginBlock div {
+  display: flex;
+  align-items: center;
+}
+
+.loginBlock div .authUser img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.loginBlock div .authUser {
+  margin-right: 15px;
+  cursor: pointer;
+}

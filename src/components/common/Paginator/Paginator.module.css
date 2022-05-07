@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination button {
+  width: 60px;
+  height: 25.6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.5s ease;
+}
+.pagination button:hover {
+  background: #aaa7a7;
+}
+
+.selectedPage {
+  font-weight: bold;
+  color: #000;
+}
+
+.pageNumber {
+  padding: 1px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: #fff;
+}

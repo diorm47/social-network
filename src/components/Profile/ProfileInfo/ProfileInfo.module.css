@@ -1,0 +1,117 @@
+.main_wrapper {
+  width: 896px;
+  display: flex;
+}
+
+.left_items div {
+  margin: 14px 0;
+}
+.contact_items {
+  margin: 5px 0;
+}
+
+.descBlock {
+  width: 250px;
+  height: 250px;
+}
+.users_img {
+  width: 250px;
+  height: 250px;
+}
+
+.profile_info {
+  margin-left: 50px;
+  color: #fff;
+}
+.contactTitle,
+b {
+  color: gray;
+}
+.contacts {
+  margin-left: 100px;
+}
+.nodata {
+  font-size: 10px;
+  color: gray;
+}
+
+.edit_mode {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.edit_mode div {
+  margin: 0 20px;
+}
+.edit_mode button {
+  width: 30px;
+  height: 22px;
+  background: #1b80a8;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.edit_mode button:hover {
+  background: #3ba8d3;
+}
+
+.edit_mode h2 {
+  margin: 0;
+}
+.items_wrapper {
+  display: flex;
+}
+
+.contact_items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.input_file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_file,
+.input_file label {
+  display: flex;
+  align-items: flex-start;
+}
+.input_file input {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: -5;
+}
+.input_file label {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 25px;
+  background: #1b80a8;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.input_file label:hover {
+  background: #3ba8d3;
+}
+
+.input_file label p {
+  margin: 0;
+  color: #fff;
+}
+.input_file .download {
+  width: 20px;
+}
+
+.input_file .line {
+  height: 100%;
+  width: 0.8px;
+  background-color: #fff;
+}
