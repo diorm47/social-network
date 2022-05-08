@@ -135,7 +135,7 @@ const Contact = ({ contactTitle, contactValue }) => {
       <b className={c.contactTitle}>{contactTitle}:</b>
       {"    "}
       {contactValue ? (
-        <a href={`https://${contactValue}`} rel="noopener" target="_blank">
+        <a href={`https://${contactValue}`} rel="noreferrer" target="_blank">
           {contactValue}
         </a>
       ) : (

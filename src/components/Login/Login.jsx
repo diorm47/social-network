@@ -32,14 +32,13 @@ const LoginForm = ({ handleSubmit, error, captchaUrl }) => {
         )}
       </div>
 
-      {captchaUrl && <img src={captchaUrl} />}
+      {captchaUrl && <img src={captchaUrl} alt="captcha" />}
       {captchaUrl && createField("symbols", "captcha", [required], Input, {})}
 
       {error && <div className={c.errorMessage}>{error}</div>}
-          <div className={c.button_wrapper}>
-          <button className={c.button}>Login</button>
-
-          </div>
+      <div className={c.button_wrapper}>
+        <button className={c.button}>Login</button>
+      </div>
     </form>
   );
 };

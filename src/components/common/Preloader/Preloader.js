@@ -1,5 +1,6 @@
 import React from "react";
 import preloaderGif from "../../../assets/gifs/preloader.gif";
+import "./preloader.css"
 
 let Preloader = (props) => {
     return <div className='preloader'>
