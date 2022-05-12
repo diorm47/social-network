@@ -1,17 +1,29 @@
-# social-network
-Social Network app
+# Social Network in React.js
+
 
 # Demo 
    https://social-network-oblivion.vercel.app
 
 
-Description
-The file structure is organized according to the BEM methodology. 
+# Description
 
-Added pagination on the user page.
-Also added the ability to follow / unfollow. This button is visible only to an authorized user.
-You can change the status and go to user profiles.
-You can add posts and send messages (without connecting to the server up to date).
-Added validation of input fields (login and password).
-Added the ability to upload a new photo .
-Now you can edit the profile information.
+This web-application have a lot of features: 
+
+- Authorization and Logging out.
+- Pagination
+- Following / Unfollowing (only for authorized user) 
+- Editing the profile information.
+- Uploading avatar image
+- Changing the status and go to user profiles.
+- Send messages.
+- Validations in input fields.
+- Preloading.
+
+# Builded in technologies
+
+- React.js
+- JavaScript
+- HTML, CSS
+- React-Router
+- Redux (thunk)
+- Axios
